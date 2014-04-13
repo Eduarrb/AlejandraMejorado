@@ -66,20 +66,79 @@ body
 {
 	border: 1px solid #786147;
 	border-radius: 5px;
+	background-color: rgba(18,5,6,0.5);
 	margin: 0 auto;
-	width: 75%;
+	padding-bottom: 1em;
+	width: 80%;
+}
+.contenido article #bloque1 .caja p
+{
+	font-size: 0.8em;
+}
+.contenido article #bloque1 .caja p span
+{
+	font-style: italic;
+}
+.contenido article #bloque1 .caja .head
+{
+	border-bottom: 1px solid #E7D3B1;
+	color: #E7D3B1;
+	font-size: 1.1em;
+	padding-bottom: 0.5em;
+}
+.contenido article #bloque2 div{
+	/*border: 1px dotted blue;*/
+	/*height: 110px;*/
+	margin-bottom: 1em;
+}
+.contenido article #bloque2 div .datos
+{
+	font-size: 0.8em;
+	margin-left: 1.5em;
+}
+.contenido article #bloque2 div .fecha
+{
+	background: #CFB486;
+	width: 23%;
+	height: 90%;
+}
+.contenido article #bloque2 div .fecha p
+{
+	color: #3D2D12;
+	font-size: 1.2em;
+	/*padding: 0.5em 0 0.5em 0;*/
+	text-align: center;
+}
+.contenido article #bloque2 div .fecha p span
+{
+	font-size: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+.contenido article #bloque2 div .fecha, .contenido article #bloque2 div .datos
+{
+	display: inline-block;
+}
+.contenido article #bloque2 .head
+{
+	border-bottom: 1px solid #E7D3B1;
+	color: #E7D3B1;
+	font-size: 1.1em;
+	padding-bottom: 0.5em;
 }
 .contenido article #bloque1, .contenido article #bloque2
 {
-	border: 1px dotted blue;
+	/*border: 1px dotted blue;*/
 	display: inline-block;
-	/*margin-left: 1em;
-	margin-right: 1em;*/
+	margin-left: 1.5em;
+	margin-right: 0.5em;
+	margin-top: 0.8em;
 	vertical-align: top;
-	width: 49%;
+	width: 44%;
 }
 footer
 {
+	margin-top: 3em;
 	padding-bottom: 1.5em;
 }
 
@@ -202,5 +261,9 @@ section figure
 	footer
 	{
 		width: 98%;
+	}
+	.contenido article #bloque1, .contenido article #bloque2
+	{
+		width: 90%;
 	}
 }
