@@ -100,13 +100,14 @@ body
 {
 	background: #CFB486;
 	width: 23%;
-	height: 90%;
+	
 }
 .contenido article #bloque2 div .fecha p
 {
 	color: #3D2D12;
 	font-size: 1.2em;
-	/*padding: 0.5em 0 0.5em 0;*/
+	padding: 0.1em;
+	margin: 0.3em;
 	text-align: center;
 }
 .contenido article #bloque2 div .fecha p span
